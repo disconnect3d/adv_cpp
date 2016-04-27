@@ -1,0 +1,24 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: D:/C++/Zaawansowane techniki programowania_sem4/exercises/BoostAsio_Server&Client/cmake/client/build/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\PROGRA~2\MSBuild\12.0\Bin\MSBuild.exe cmTryCompileExec2616603457.vcxproj /p:Configuration=Debug /p:VisualStudioVersion=12.0
+Microsoft (R) Build Engine version 12.0.21005.1
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 26-Apr-14 8:38:33 PM.
+Project "D:\C++\Zaawansowane techniki programowania_sem4\exercises\BoostAsio_Server&Client\cmake\client\build\CMakeFiles\CMakeTmp\cmTryCompileExec2616603457.vcxproj" on node 1 (default targets).
+D:\C++\Zaawansowane techniki programowania_sem4\exercises\BoostAsio_Server&Client\cmake\client\build\CMakeFiles\CMakeTmp\cmTryCompileExec2616603457.vcxproj(60,146): error MSB4025: The project file could not be loaded. An error occurred while parsing EntityName. Line 60, position 146.
+Done Building Project "D:\C++\Zaawansowane techniki programowania_sem4\exercises\BoostAsio_Server&Client\cmake\client\build\CMakeFiles\CMakeTmp\cmTryCompileExec2616603457.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"D:\C++\Zaawansowane techniki programowania_sem4\exercises\BoostAsio_Server&Client\cmake\client\build\CMakeFiles\CMakeTmp\cmTryCompileExec2616603457.vcxproj" (default target) (1) ->
+  D:\C++\Zaawansowane techniki programowania_sem4\exercises\BoostAsio_Server&Client\cmake\client\build\CMakeFiles\CMakeTmp\cmTryCompileExec2616603457.vcxproj(60,146): error MSB4025: The project file could not be loaded. An error occurred while parsing EntityName. Line 60, position 146.
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.01
+
+
