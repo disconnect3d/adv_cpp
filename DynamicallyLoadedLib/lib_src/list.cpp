@@ -110,10 +110,12 @@ return new list;
     {
 #ifdef DEBUG
         LOG_ARG(L);
+#endif // #ifdef DEBUG
+
+        delete L;
+#ifdef DEBUG
         DELOG;
 #endif // #ifdef DEBUG
-        L->~list();
-        delete L;
     }
     
 

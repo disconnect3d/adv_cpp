@@ -125,7 +125,7 @@ public:
 
     list();                                                     /// zero initializing ctor
     list(const list& other);
-    ~list();                                                    /// dtor to prevent memory leaks
+    virtual ~list();                                                    /// dtor to prevent memory leaks
     void push_back(const T& data) override;                                 /// adds item on the list's ending
     void push_front(const T& data) override;                             /// adds item on the list's begining
 
