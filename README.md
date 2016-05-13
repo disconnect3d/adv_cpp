@@ -1,9 +1,9 @@
 # adv_cpp
-c++ codes writtten for advanced programming course at AGH University of Science and Technology
+Fancy c++ codes written mostly for advanced programming course at AGH University of Science and Technology
 
 The code here has been written in early 2014 and might not be of the best quality (e.g. lacks of smart pointers, the cross platform signal handling is written by hand instead of using boost).
 
-Anyway here is a little insight what following directories contain:
+Anyway here is a little insight what following directories contain // things made for the course:
 
 * WhatsBestInCpp11 - we had a laboratory where we were asked to write what do we think is cool in c++11, that's what it is... (it should really show smart pointers and move semantics)
 
@@ -14,3 +14,7 @@ Anyway here is a little insight what following directories contain:
 * DynamicallyLoadedLib - an easy example of loading dynamic libraries in runtime using dlfcn library (that's how plugins might work in some C/C++ software).
 
 * BoostAsio_Server&Client - async tcp client & server written in boost::asio (async io), there's a little mess in there as it contains a Visual Studio project, a cmake project (in cmake directory ^^) and makefile like projects in (server)|(client)_src directories {also the makefiles won't work since they were copied from the university server, have to fix them someday}
+
+Things made for fun/other needs:
+
+* StaticDispatchInterface - how you can make polymorphic like container using metaprogramming/templates... 
