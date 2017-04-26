@@ -33,7 +33,7 @@ int main(int argc, char* argv[])
 
     const char* LIB_VERSIONS[] = { RELEASE, DEBUG, FULL_DEBUG };
 
-    if (argc <= 1 || argc >= 3 || !((argv[1][0] >= '0') && (argv[1][0] <= '2')))
+    if (argc <= 1 || argc >= 3 || !(argv[1][0] >= '0' && argv[1][0] <= '2'))
     {
         std::cerr << "Usage: program X" << std::endl;
         std::cerr << "Where X can be: " << std::endl;
