@@ -155,7 +155,6 @@ public:
         }
 
         T& operator*()                          /// returns value hidden under iterator
-
         {
             LOG_ITER;
             DELOG_ITER;
